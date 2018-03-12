@@ -1,4 +1,4 @@
-FROM aldisanta/docker-php56-laravel
+FROM aldisanta/docker-apache-php56
 LABEL maintainer="Aldi Dipasanta"
 
 RUN /usr/sbin/a2enmod rewrite
